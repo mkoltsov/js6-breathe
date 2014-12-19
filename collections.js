@@ -29,3 +29,6 @@ console.log(map.get('Chef'))
 let map1 = new Map([["chef", "pupa"],["yoy", 111]])
 
 console.log(map1.get('chef'))
+
+let set = new WeakSet([{},{chef:"11"},{fdf:"$#$"},{fdfdf:"43434"}])
+let wmap = new WeakMap([[{ffdf:"#@#"},2],[{fdf:"Fdf"},4]])
