@@ -19,3 +19,13 @@ for (let num of items) {
 }
 
 items.forEach(function(elem) {console.log(elem)})
+
+let map = new Map()
+
+map.set("Chef", "Pupa")
+map.set("Chef", "Pupa1")
+console.log(map.get('Chef'))
+
+let map1 = new Map([["chef", "pupa"],["yoy", 111]])
+
+console.log(map1.get('chef'))
