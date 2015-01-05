@@ -5,3 +5,15 @@ var person = {}
 person[firstname] = "Zack"
 
 console.log(person[firstname] )
+
+let symb = Symbol.for("uid")
+
+let obj = {}
+
+obj[symb] = 123
+
+console.log(obj[symb])
+
+let uid = Symbol.for("uid")
+
+console.log(symb === uid)
