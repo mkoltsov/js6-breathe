@@ -17,3 +17,6 @@ console.log(obj[symb])
 let uid = Symbol.for("uid")
 
 console.log(symb === uid)
+
+console.log(Symbol.keyFor(uid))
+console.log(Symbol.keyFor(symb))
