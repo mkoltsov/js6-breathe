@@ -35,3 +35,12 @@ let myObject = {}
 // Object.assign(myObject, EventTarget.prototype)
 
 // console.log(myObject.emit())
+
+let person = {
+	getGreeting: function () {return "Hello"}
+}
+//doesn't work on node 0.12
+// let friend = {
+// 	__proto__:person,
+// 	getGreeting: function() {return super.getGreeting() + "Hi"}
+// }
