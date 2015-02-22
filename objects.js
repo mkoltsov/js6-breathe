@@ -12,7 +12,7 @@ console.log(createPerson("chef",18))
 // 	}
 // }
 
-var suffix = name
+// var suffix = name
 //doesn't work on node 0.12
 // let person = {
 // 	["first" + suffix] : "Nicholas",
@@ -21,3 +21,17 @@ var suffix = name
 
 // console.log(person["first name"])
 // console.log(person["last name"])
+
+function EventTarget(){}
+
+EventTarget.prototype = {
+	constructor:EventTarget,
+	emit:function(){return 111},
+	on:function(){return 222}
+}
+
+let myObject = {}
+//doesn't work on node 0.12
+// Object.assign(myObject, EventTarget.prototype)
+
+// console.log(myObject.emit())
