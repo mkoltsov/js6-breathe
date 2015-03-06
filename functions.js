@@ -48,6 +48,14 @@ let list = ["my","name","is", "chef"]
 
 console.log(list.reduce((a,b) => a+" "+b))
 console.log(list)
+let some = () => "JS IS AWESOME"
+
+console.log(some())
+
+let sum = (a,b) => a+b
+
+console.log(sum.call(null, 1,2))
+console.log(sum.apply(null, [1,2]))
 
 console.log(reflect("Chef"))
 console.log(reflect2("Chef", "Pupa"))
