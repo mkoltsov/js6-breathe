@@ -44,6 +44,10 @@ let doNothing = () => {}
 let getItem = () => ({chef:"Pupa"})
 let iife = ((name)=> {return name+1})("Nick")
 console.log(iife)
+let list = ["my","name","is", "chef"]
+
+console.log(list.reduce((a,b) => a+" "+b))
+console.log(list)
 
 console.log(reflect("Chef"))
 console.log(reflect2("Chef", "Pupa"))
