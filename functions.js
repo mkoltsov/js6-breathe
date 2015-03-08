@@ -42,6 +42,8 @@ let reflect3 = () => "Arrow function"
 let reflect4 = (arg1, arg2) => {return arg1 + arg2}
 let doNothing = () => {}
 let getItem = () => ({chef:"Pupa"})
+let iife = ((name)=> {return name+1})("Nick")
+console.log(iife)
 
 console.log(reflect("Chef"))
 console.log(reflect2("Chef", "Pupa"))
