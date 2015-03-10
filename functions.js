@@ -38,6 +38,13 @@ console.log(typeof doSomething1)
 
 let reflect = value => value
 let reflect2 = (value1, value2) => value1+value2
+let reflect3 = () => "Arrow function"
+let reflect4 = (arg1, arg2) => {return arg1 + arg2}
+let doNothing = () => {}
+let getItem = () => ({chef:"Pupa"})
 
 console.log(reflect("Chef"))
 console.log(reflect2("Chef", "Pupa"))
+console.log(reflect4("Chef", "Pupa"))
+console.log(reflect3())
+console.log(getItem())
