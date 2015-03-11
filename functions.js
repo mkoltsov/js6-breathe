@@ -35,3 +35,9 @@ if (true) {
 }
 
 console.log(typeof doSomething1)
+
+let reflect = value => value
+let reflect2 = (value1, value2) => value1+value2
+
+console.log(reflect("Chef"))
+console.log(reflect2("Chef", "Pupa"))
