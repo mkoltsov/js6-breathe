@@ -24,3 +24,14 @@ var doAnotherThing = function(){}
 
 console.log(doSomething.name)
 console.log(doAnotherThing.name || NaN)
+
+if (true) {
+	console.log(typeof doSomething1)
+	//console.log(typeof doSmthng)
+	function doSomething1() {}
+	let doSmthng = function() {}
+	console.log(typeof doSmthng)
+	doSomething1()
+}
+
+console.log(typeof doSomething1)
