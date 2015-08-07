@@ -16,4 +16,11 @@
 
 let struct = [1,3,5,7]
 //the spread operator doesn't work on node 0.12
-console.log(Math.max(...struct))
+//console.log(Math.max(...struct))
+
+function doSomething() {}
+
+var doAnotherThing = function(){}
+
+console.log(doSomething.name)
+console.log(doAnotherThing.name || NaN)
