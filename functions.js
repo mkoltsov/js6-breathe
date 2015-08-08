@@ -9,3 +9,11 @@
 //}
 
 //restParams(1,2,3,4,5,6,7,8)
+//destructuring doesn't work on node 0.12
+//function({chef, pupa}) {
+//	console.log(111)
+//}
+
+let struct = [1,3,5,7]
+//the spread operator doesn't work on node 0.12
+console.log(Math.max(...struct))
