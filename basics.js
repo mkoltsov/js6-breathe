@@ -23,6 +23,10 @@ console.log(Number.isNaN(NaN))
 console.log(Number.isNaN("NaN"))
 console.log(Number.parseInt("11111"))
 console.log(Number.parseFloat("11111.2222"))
+console.log(Number.isInteger("11111.2222"))
+console.log(Number.isInteger("11111.0"))
+console.log(Number.isInteger("11111"))
+console.log(Math.log2(32))
 console.log(count)
 if (true) {
 	const chef = "chef"
