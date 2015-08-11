@@ -14,9 +14,15 @@ var options = {name:"chef", position:"pupa"}
 
 //console.log("%s - %s", name, position)
 
-var opts = ["first", second]
+var opts = ["first", "second"]
 //array destructuring doesn't work on node 0.12, as well as object destructuring
-var [fir, scnd] = opts
+//var [fir, scnd] = opts
+console.log(Number.isFinite(25))
+console.log(Number.isFinite("25"))
+console.log(Number.isNaN(NaN))
+console.log(Number.isNaN("NaN"))
+console.log(Number.parseInt("11111"))
+console.log(Number.parseFloat("11111.2222"))
 console.log(count)
 if (true) {
 	const chef = "chef"
