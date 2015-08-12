@@ -14,6 +14,9 @@ var options = {name:"chef", position:"pupa"}
 
 //console.log("%s - %s", name, position)
 
+var opts = ["first", second]
+//array destructuring doesn't work on node 0.12, as well as object destructuring
+var [fir, scnd] = opts
 console.log(count)
 if (true) {
 	const chef = "chef"
