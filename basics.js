@@ -8,6 +8,12 @@ if (true) {
 	console.log(count)
 }
 
+var options = {name:"chef", position:"pupa"}
+//doesn't work on node 0.12
+//var {name, position} = options
+
+//console.log("%s - %s", name, position)
+
 console.log(count)
 if (true) {
 	const chef = "chef"
