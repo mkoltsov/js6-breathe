@@ -9,6 +9,13 @@ if (true) {
 }
 
 console.log(count)
+if (true) {
+	const chef = "chef"
+	console.log(chef)
+}
+
+console.log(chef)
+
 (function chef() {
 	if (true) {
 		let pupa1 = 1
