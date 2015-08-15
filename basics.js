@@ -1,5 +1,14 @@
 "use strict";
 
+var count = 1
+
+if (true) {
+	let count = 40
+
+	console.log(count)
+}
+
+console.log(count)
 (function chef() {
 	if (true) {
 		let pupa1 = 1
