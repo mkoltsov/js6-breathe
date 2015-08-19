@@ -20,3 +20,6 @@ console.log(regexp.test(ab1))
 console.log(regexp.source)
 //doesn't work on node 0.12
 console.log(regexp.flags)
+
+console.log(Object.is(+0, -0))
+console.log(+0===-0)
