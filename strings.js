@@ -12,7 +12,11 @@ console.log(ab3.endsWith('pupa'))
 var x = "x"
 console.log(x = x.repeat(10))
 console.log(x.length)
-var regexp = /^chef/i
+var regexp = /^chef/ig
 
 console.log(regexp.test(ab))
 console.log(regexp.test(ab1))
+
+console.log(regexp.source)
+//doesn't work on node 0.12
+console.log(regexp.flags)
