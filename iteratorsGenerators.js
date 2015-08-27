@@ -50,7 +50,18 @@ console.log(isIterable(new Set()))
 
 let ctr = "CHEF"
 let iterat = ctr[Symbol.iterator]();
+let print = (j) => console.log(j)
+let printAll = (iter) => {for (let i of iter) {
+	print(i)
+}}
 
-for (let i of ctr) {
-	(() => console.log(i))()
-}
+printAll(ctr)
+
+let map = new Map()
+
+map.set("Chef", "Pupa")
+map.set("Bupa", "Diop")
+
+printAll(map.entries())
+printAll(map.values())
+printAll(map.keys())
